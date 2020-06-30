@@ -1,0 +1,8 @@
+myvenv
+geckodriver.log 
+__pycache__ 
+*.pyc 
+geckodriver.exe 
+db.sqlite3 
+geckodriver-v0.26.0-win64 
+geckodriver-v0.26.0-win64.zip 
