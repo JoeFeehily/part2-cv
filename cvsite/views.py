@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def section_list(request):
+    return render(request, 'cvsite/section_list.html', {})
