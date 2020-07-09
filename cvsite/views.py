@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from .models import Section
 
 def mainsite(request):
-    return render(request, 'mainsite.html', {})
+    list = Section.objects.order_by('id')
+    return render(request, 'mainsite.html', {'list': list})
