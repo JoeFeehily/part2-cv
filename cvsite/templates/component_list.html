@@ -1,0 +1,10 @@
+{% extends 'mainsite.html' %}
+
+{% block content %}
+    {% for component in list %}
+        <div class="list">
+            <h2><a href="{% url 'component_edit' pk=component.pk %}">{{ component.title }}</a></h2>
+            <p>{{component.text|linebreaksbr}}</p>
+        </div>
+    {% endfor %}
+{% endblock %}

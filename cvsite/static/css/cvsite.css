@@ -1,0 +1,24 @@
+.page-header {
+    /*color: #2A64E8;*/
+    color: #154ED3;
+    background-color: #B6C8F0;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    text-align: center;
+    font-family: 'EB Garamond';
+}
+
+.details {
+    text-align: center;
+    font-family: 'Roboto'; 
+}
+
+.list {
+    font-size: large;
+    font-family: 'Roboto';
+    padding-left: 50px;
+}
+
+h1 a, h2 a {
+    font-family: 'EB Garamond'; /*not changing titles*/
+}
